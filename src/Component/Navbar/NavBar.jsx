@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
     return (
@@ -10,6 +10,7 @@ const NavBar = () => {
                     <img src="/public/food.logo.jpg" alt="" className='w-20 rounded-2xl ' />
                     <h1 className='text-4xl  md:text-6xl font-extrabold px-2'><span className='text-yellow-800'>Food</span> <span className='text-green-800'>Meal</span></h1>
                 </div>
+
                 <div className='flex items-center gap-2 mx-4 '>
                     <label className="input bg-white text-black  md:w-100 outline-none ">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -24,11 +25,18 @@ const NavBar = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input type="search" required placeholder="Search" />
+                        <input
+                            type="search"
+                            required
+                            placeholder="Search"
+                            className="input input-bordered"
+                        />
+
                     </label>
                     <div>
-                        <button className="btn btn-active btn-info">
-                          <FontAwesomeIcon icon={faSearch } className=" text-2xl" />
+                        <button className="btn btn-active btn-info hover:bg-[blue]
+                        " >
+                            <FontAwesomeIcon icon={faSearch} className=" text-2xl" />
                         </button>
                     </div>
                 </div>

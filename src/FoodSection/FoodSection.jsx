@@ -1,10 +1,11 @@
-import React, { use } from 'react';
+import React, { use,  } from 'react';
 import FoodCards from '../FoodCards/FoodCards';
 
 const FoodSection = ({ foodDataRec }) => {
     const foodPromise = use(foodDataRec);
     const foods = foodPromise.meals;
-    console.log(foodPromise.meals)
+
+
     return (
         <div className='max-w-360 mx-auto'>
             <div className='w-11/12 mx-auto'>
@@ -14,11 +15,13 @@ const FoodSection = ({ foodDataRec }) => {
                         <span className='text-red-700'> Recipes</span>
                     </h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3 items-stretch  '>
                     {
-                    foods.map(food => <FoodCards key={food.strMeal} food={food}></FoodCards>)
-                }
+                        foods.map(food => <FoodCards key={food.strMeal} food={food}></FoodCards>)
+                    }
                 </div>
+
+
             </div>
         </div>
     );
