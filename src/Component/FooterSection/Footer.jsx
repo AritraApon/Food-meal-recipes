@@ -5,7 +5,7 @@ const Footer = () => {
         <div className=' max-w-360 mx-auto mt-20 '>
             <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
   <aside>
-    <img src="/public/food.logo.jpg" alt="" width='100px' />
+    <img src="/public/food.logo.jpg" alt="" width='100px' className='animate-gradient' />
      <div className=' border-b-3 '>
                     <h1 className='text-center text-xl  md:text-5xl font-bold '>
                         <span className='text-green-700' >Food</span>

@@ -14,7 +14,7 @@ const FoodCards = ({ food }) => {
         <div className='max-w-360 mx-auto'>
             <div className='w-11/12 mx-auto'>
                 {/* card. */}
-                <div className='border-2 space-y-4 text-center bg-[#784102] hover:scale-105 transition'>
+                <div className='border-2 space-y-4 text-center bg-[#784102] hover:scale-105 transition  animate-glow'>
                     <img src={image} alt="" className='w-75 ' />
 
                     <p className='text-xl font-bold text-center'>{foodName}</p>

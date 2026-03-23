@@ -13,7 +13,8 @@ const NavBar = ({ setSearchTerm }) => {
             <div className='flex flex-col md:flex-row justify-between items-center py-5'>
                 <div className='flex justify-start items-center py-5 px-4'>
                     <img src="/public/food.logo.jpg" alt="" className='w-20 rounded-2xl ' />
-                    <h1 className='text-4xl  md:text-6xl font-extrabold px-2'><span className='text-yellow-800'>Food</span> <span className='text-green-800'>Meal</span></h1>
+                    {/* <h1 className='text-4xl  md:text-6xl font-extrabold px-2'><span className='text-yellow-800'>Food</span> <span className='text-green-800'>Meal</span></h1> */}
+                    <h1 className='text-4xl font-extrabold text-red-600 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-red-600'><span className='text-yellow-800'>Food</span> <span className='text-green-800'>Meal</span></h1>
                 </div>
 
                 <div className='flex items-center gap-2 mx-4 '>

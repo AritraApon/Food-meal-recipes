@@ -12,8 +12,8 @@ const FoodSection = ({ foodDataRec, searchTerm }) => {
     return (
         <div className='max-w-360 mx-auto'>
             <div className='w-11/12 mx-auto'>
-                <div className='my-10 border-b-3 py-4'>
-                    <h1 className='text-center text-5xl  md:text-7xl font-bold '>
+                <div className='my-10 border-b-3 py-4 animate-border '>
+                    <h1 className='text-center text-5xl  md:text-7xl font-bold animate-slowbounce '>
                         <span className='text-green-700' >Meals</span>
                         <span className='text-red-700'> Recipes</span>
                     </h1>
