@@ -10,15 +10,16 @@ const foodDataRec = fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=
 
 function App() {
 
+ const [searchTerm, setSearchTerm] = useState("");
 
 
   return (
     <>
       {/* nav bar  */}
-      <NavBar  ></NavBar>
+      <NavBar setSearchTerm={setSearchTerm} ></NavBar>
       {/* food section  */}
       <Suspense fallback={<div className='flex justify-center items-center h-full my-60'><span className="loading loading-spinner loading-7xl"></span></div>}>
-        <FoodSection foodDataRec={foodDataRec} ></FoodSection>
+        <FoodSection foodDataRec={foodDataRec} searchTerm={searchTerm}  ></FoodSection>
       </Suspense>
       <Footer></Footer>
 

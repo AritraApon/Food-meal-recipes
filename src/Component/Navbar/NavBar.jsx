@@ -2,7 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-const NavBar = () => {
+const NavBar = ({ setSearchTerm }) => {
+    const [inputValue, setInputValue] = React.useState("");
+    const handleSearch = () => {
+        setSearchTerm(inputValue); // button click e final search update hobe
+    };
+
     return (
         <div className='bg-[#d9a299db] max-w-360 mx-auto'>
             <div className='flex flex-col md:flex-row justify-between items-center py-5'>
@@ -26,6 +31,9 @@ const NavBar = () => {
                             </g>
                         </svg>
                         <input
+                            value={inputValue}
+                            onChange={(e) => setInputValue(e.target.value)}
+
                             type="search"
                             required
                             placeholder="Search"
@@ -34,7 +42,7 @@ const NavBar = () => {
 
                     </label>
                     <div>
-                        <button className="btn btn-active btn-info hover:bg-[blue]
+                        <button onClick={handleSearch} className="btn btn-active btn-info hover:bg-[blue]
                         " >
                             <FontAwesomeIcon icon={faSearch} className=" text-2xl" />
                         </button>

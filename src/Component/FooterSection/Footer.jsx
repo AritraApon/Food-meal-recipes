@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='mt-20 '>
+        <div className=' max-w-360 mx-auto mt-20 '>
             <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
   <aside>
     <img src="/public/food.logo.jpg" alt="" width='100px' />
