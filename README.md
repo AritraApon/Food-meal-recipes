@@ -1,12 +1,116 @@
-# React + Vite
+# 🍽️ Food Meal Recipes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based recipe browsing app where users can explore meals, view details, and watch related YouTube videos. This project focuses on React fundamentals, API fetching, component structure, and responsive UI.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://food-meal-recipise.netlify.app/
 
-## Expanding the ESLint configuration
+## 📂 GitHub Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://github.com/AritraApon/Food-meal-recipes
+
+---
+
+## ✨ Features
+
+* 🍛 Browse meals from API
+* 🔍 Dynamic meal data rendering
+* 🎬 YouTube video link for each recipe
+* 📱 Responsive grid layout
+* ⚛️ React component-based architecture
+* ⏳ Loading spinner using Suspense
+* 🎨 Clean UI with Tailwind CSS
+* 🔗 External API integration
+
+---
+
+## 🛠️ Technologies Used
+
+* React
+* Vite
+* Tailwind CSS
+* Font Awesome Icons
+* TheMealDB API
+
+---
+
+<img width="1803" height="987" alt="image" src="https://github.com/user-attachments/assets/ecb30cf7-2499-4524-b603-de861fdc3c73" />
+<img width="1470" height="928" alt="image" src="https://github.com/user-attachments/assets/29fe0511-d349-41c1-bb5b-176e41da56ce" />
+<img width="884" height="1920" alt="image" src="https://github.com/user-attachments/assets/2d35f179-4e2f-4c9d-bc3f-c466197469f6" />
+
+
+
+## 📦 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AritraApon/Food-meal-recipes.git
+```
+
+Go to project folder:
+
+```bash
+cd Food-meal-recipes
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Project Structure
+
+```
+src/
+ ├── Components/
+ │   ├── Navbar/
+ │   ├── FoodCards/
+ │   ├── FoodSection/
+ │   └── ...
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 🎯 What I Learned
+
+* React component structure
+* Props passing between components
+* Fetching API data
+* React Suspense usage
+* Grid layout alignment
+* Using Font Awesome in React
+* Responsive UI design
+
+---
+
+## 📌 Future Improvements
+
+* Search functionality
+* Category filtering
+* Recipe details page
+* Favorites system
+* Better loading skeleton
+
+---
+
+## 🙋‍♂️ Author
+
+**Apon**
+Aspiring Web Developer | Learning React & Building Projects
+
+---
+
+⭐ If you like this project, feel free to give it a star!
