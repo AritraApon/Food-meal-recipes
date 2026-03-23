@@ -37,7 +37,8 @@ https://github.com/AritraApon/Food-meal-recipes
 
 <img width="1803" height="987" alt="image" src="https://github.com/user-attachments/assets/ecb30cf7-2499-4524-b603-de861fdc3c73" />
 <img width="1470" height="928" alt="image" src="https://github.com/user-attachments/assets/29fe0511-d349-41c1-bb5b-176e41da56ce" />
-<img width="884" height="1920" alt="image" src="https://github.com/user-attachments/assets/2d35f179-4e2f-4c9d-bc3f-c466197469f6" />
+<img width="1066" height="777" alt="image" src="https://github.com/user-attachments/assets/8a821c91-4de9-43aa-8c76-cb7305892a56" />
+
 
 
 
